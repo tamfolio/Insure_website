@@ -11,7 +11,7 @@ function Navbar() {
             <li><a href="/">How we work</a></li>
             <li><a href="/">Blog</a></li>
             <li><a href="/">Account</a></li>
-            <li><a href="/">View Plans</a></li>
+            <li><a href="/" className='cta'>View Plans</a></li>
         </ul>
     </div>
   )

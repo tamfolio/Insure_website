@@ -6,6 +6,7 @@
     justify-content: space-between;
     background-color: white;
     padding: 10px 100px;
+    font-family: 'Karla', sans-serif;
 }
 
 .Navbar .nav-links{
@@ -22,6 +23,15 @@
 .nav-links li a{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 16px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 600;
+}
+
+.nav-links .cta{
+    border: 2px solid hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+    padding: 5px 10px;
 }
 
 .Navbar .logo img{
