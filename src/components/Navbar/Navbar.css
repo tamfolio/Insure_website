@@ -1,0 +1,29 @@
+.Navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 100px;
+}
+
+.Navbar .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Navbar .logo img{
+    width: 100px;
+}
