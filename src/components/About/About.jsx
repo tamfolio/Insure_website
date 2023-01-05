@@ -4,7 +4,9 @@ import './About.css'
 function About() {
   return (
     <div className='about'>
-      <div className="short-line2"></div>
+      <div className="short-line-box">
+        <div className="short-line2"></div>
+      </div>
       <h1>We’re different</h1>
       <div className="about-container">
         <div className="about-box">
