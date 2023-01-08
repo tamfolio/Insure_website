@@ -97,6 +97,11 @@
     z-index: 3;
 }
 
+.about .how-we-work a:hover{
+    color: hsl(256, 26%, 20%);
+    background-color: #fff;
+}
+
 .how-we-work-img{
     position: absolute;
     height: 250px;
