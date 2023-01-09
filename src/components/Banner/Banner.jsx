@@ -9,6 +9,8 @@ function Banner() {
         <h1>Humanizing <br/>your insurance.</h1>
         <p> Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
         <a href="/" className='cta'>View Plans</a>
+        <img src="https://res.cloudinary.com/dnovlrekd/image/upload/v1671690025/bg-pattern-intro-left-mobile_idca7w.svg" alt="" className='banner-left-img1' />
+        <img src="https://res.cloudinary.com/dnovlrekd/image/upload/v1671690026/bg-pattern-intro-right-mobile_dlzpbf.svg" alt=""  className='banner-left-img2' />
       </div>
       <div className="banner-right">
         <img src="https://res.cloudinary.com/dnovlrekd/image/upload/v1671690031/image-intro-desktop_mhibaa.jpg" alt="" className='banner-img' />
