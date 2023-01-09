@@ -69,4 +69,39 @@
     width: 140px;
 }
 
+@media screen and (max-width: 600px){
+    .Banner{
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        height: 800px;
+        padding: 40px 33px;
+    }
+    .Banner .banner-right .banner-img{
+        min-width: 350px;
+        max-width: 100%;
+        margin-top: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+
+    .Banner .banner-left {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .Banner .banner-left .short-line{
+        display: none;
+    }
+
+    .Banner .banner-left h1{
+        font-size: 40px;
+        font-weight: normal;
+    }
+    .Banner .banner-right .banner-img2,.Banner .banner-right .banner-img3{
+        display: none;
+    }
+}
+
 
