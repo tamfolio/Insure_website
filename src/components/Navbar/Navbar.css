@@ -50,3 +50,12 @@
 .Navbar .logo img{
     width: 100px;
 }
+
+@media screen and (max-width: 600px){
+    .Navbar{
+        padding: 10px 30px;
+    }
+    .Navbar .nav-links{
+        display: none;
+    }
+}

@@ -1,7 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
 
 function Navbar() {
+  const[active, setActive] = useState(false);
+
   return (
     <div className='Navbar'>
         <div className="logo">
@@ -13,6 +15,7 @@ function Navbar() {
             <li><a href="/">Account</a></li>
             <li><a href="/" className='cta'>View Plans</a></li>
         </ul>
+        {active ? <img src='https://res.cloudinary.com/dnovlrekd/image/upload/v1671690027/icon-close_mzowtd.svg' alt='' onClick={() => setActive(!active)}/> : <img src='https://res.cloudinary.com/dnovlrekd/image/upload/v1671690028/icon-hamburger_v2jes6.svg' alt='' onClick={() => setActive(!active)}/> }
     </div>
   )
 }
