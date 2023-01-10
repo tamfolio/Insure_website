@@ -69,6 +69,10 @@
     width: 140px;
 }
 
+.Banner .banner-left .banner-left-img1,.Banner .banner-left .banner-left-img2{
+    display: none;
+}
+
 @media screen and (max-width: 600px){
     .Banner{
         flex-direction: column-reverse;
@@ -89,6 +93,7 @@
         width: 100%;
         text-align: center;
         padding-bottom: 30px;
+        position: relative;
     }
 
     .Banner .banner-left .short-line{
@@ -101,6 +106,13 @@
     }
     .Banner .banner-right .banner-img2,.Banner .banner-right .banner-img3{
         display: none;
+    }
+
+    .Banner .banner-left .banner-left-img1{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 
