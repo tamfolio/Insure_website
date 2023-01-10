@@ -73,3 +73,25 @@
     text-underline-offset: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .footer{
+        height: 1000px;
+        padding: 10px 33px;
+    }
+    .footer .footer-top{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer-links{
+        text-align: center;
+    }
+}
+
