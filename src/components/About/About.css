@@ -111,6 +111,7 @@
 @media screen and (max-width: 600px) {
     .about{
         text-align: center;
+        height: 1300px;
     }
     .about .short-line-box{
         justify-content: center;
@@ -119,5 +120,13 @@
         text-align: center;
         width: 300px;
         font-size: 36px;
+    }
+    .about .about-container{
+        flex-direction: column;
+    }
+    .about .how-we-work{
+        width: 350px;
+        flex-direction: column;
+        justify-content: center;
     }
 }
