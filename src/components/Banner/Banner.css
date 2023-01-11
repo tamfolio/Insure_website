@@ -92,7 +92,7 @@
     .Banner .banner-left {
         width: 100%;
         text-align: center;
-        padding-bottom: 30px;
+        padding: 30px 10px;
         position: relative;
     }
 
@@ -109,7 +109,7 @@
     }
 
     .Banner .banner-left .banner-left-img1{
-        display: block;
+        display: none;
         position: absolute;
         top: 0;
         left: 0;
